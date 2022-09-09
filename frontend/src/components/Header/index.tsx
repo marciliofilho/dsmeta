@@ -7,7 +7,7 @@ function Header() {
             <div className="dsmeta-logo-container">
                 <img src={logo} alt="DSMeta" />
                 <h1>DSMeta</h1>
-                <p class="in-ig">
+                <p id='in-ig'>
                     Desenvolvido por:
                     <a href="https://www.instagram.com/marcilioafilho/">@marcilioafilho.ig</a>
                     <a href="https://www.linkedin.com/in/marcilioafilho/">@marcilioafilho.in</a>

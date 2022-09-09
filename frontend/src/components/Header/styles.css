@@ -26,17 +26,17 @@ header {
   font-weight: 300;
 }
 
-.in-ig a {
+#in-ig a {
   color: #3bd42d !important;
   padding: 0 3px;
 }
 
-.in-ig a:hover:first-child {
+#in-ig a:hover:first-child {
   color: #F56040 !important;
   text-decoration: underline;
 }
 
-.in-ig a:hover:nth-child(2) {
+#in-ig a:hover:nth-child(2) {
   color: #0077b5 !important;
   text-decoration: underline;
 }
