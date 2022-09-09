@@ -9,7 +9,7 @@ import './styles.css';
 
 function SalesCard() {
 
-    const [minDate, setMinDate] = useState(new Date());
+    const [minDate, setMinDate] = useState(new Date(new Date().setDate(new Date().getDate() -365)));
     const [maxDate, setMaxDate] = useState(new Date());
 
     const [sales, setSales] = useState<Sale[]>([]);
